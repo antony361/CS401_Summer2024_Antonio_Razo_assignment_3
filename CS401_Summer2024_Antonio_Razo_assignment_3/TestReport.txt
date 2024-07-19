@@ -1,0 +1,127 @@
+
+# Test Report for StringUtils
+
+## Test Execution Results
+
+### Test Case 1: Concatenation
+- **Method**: `concatenate(String str1, String str2)`
+- **Inputs**: 
+  - `str1`: `"abc"`
+  - `str2`: `"def"`
+- **Expected Output**: `"abcdef"`
+- **Actual Output**: `"abcdef"`
+- **Status**: Pass
+
+### Test Case 2: Concatenation
+- **Method**: `concatenate(String str1, String str2)`
+- **Inputs**:
+  - `str1`: `" "`
+  - `str2`: `"def"`
+- **Expected Output**: `" def"`
+- **Actual Output**: `" def"`
+- **Status**: Pass
+
+### Test Case 3: Concatenation
+- **Method**: `concatenate(String str1, String str2)`
+- **Inputs**:
+  - `str1`: `"abc"`
+  - `str2`: `""`
+- **Expected Output**: `"abc"`
+- **Actual Output**: `"abc"`
+- **Status**: Pass
+
+### Test Case 4: Concatenation
+- **Method**: `concatenate(String str1, String str2)`
+- **Inputs**:
+  - `str1`: `"123"`
+  - `str2`: `"456"`
+- **Expected Output**: `"123456"`
+- **Actual Output**: `"123456"`
+- **Status**: Pass
+
+### Test Case 5: Concatenation
+- **Method**: `concatenate(String str1, String str2)`
+- **Inputs**:
+  - `str1`: `"abc"`
+  - `str2`: `" "`
+- **Expected Output**: `"abc "`
+- **Actual Output**: `"abc "`
+- **Status**: Pass
+
+### Test Case 6: Reverse
+- **Method**: `reverse(String str)`
+- **Inputs**:
+  - `str`: `"abc"`
+- **Expected Output**: `"cba"`
+- **Actual Output**: `"cba"`
+- **Status**: Pass
+
+### Test Case 7: Reverse
+- **Method**: `reverse(String str)`
+- **Inputs**:
+  - `str`: `" "`
+- **Expected Output**: `" "`
+- **Actual Output**: `" "`
+- **Status**: Pass
+
+### Test Case 8: Reverse
+- **Method**: `reverse(String str)`
+- **Inputs**:
+  - `str`: `"123"`
+- **Expected Output**: `"321"`
+- **Actual Output**: `"321"`
+- **Status**: Pass
+
+### Test Case 9: Reverse
+- **Method**: `reverse(String str)`
+- **Inputs**:
+  - `str`: `"abc "`
+- **Expected Output**: `" cba"`
+- **Actual Output**: `" cba"`
+- **Status**: Pass
+
+### Test Case 10: ToUpperCase
+- **Method**: `toUpperCase(String str)`
+- **Inputs**:
+  - `str`: `"abc"`
+- **Expected Output**: `"ABC"`
+- **Actual Output**: `"ABC"`
+- **Status**: Pass
+
+### Test Case 11: ToUpperCase
+- **Method**: `toUpperCase(String str)`
+- **Inputs**:
+  - `str`: `" "`
+- **Expected Output**: `" "`
+- **Actual Output**: `" "`
+- **Status**: Pass
+
+### Test Case 12: ToUpperCase
+- **Method**: `toUpperCase(String str)`
+- **Inputs**:
+  - `str`: `"123"`
+- **Expected Output**: `"123"`
+- **Actual Output**: `"123"`
+- **Status**: Pass
+
+### Test Case 13: Trim
+- **Method**: `trim(String str)`
+- **Inputs**:
+  - `str`: `" abc "`
+- **Expected Output**: `"abc"`
+- **Actual Output**: `"abc"`
+- **Status**: Pass
+
+### Test Case 14: Trim
+- **Method**: `trim(String str)`
+- **Inputs**:
+  - `str`: `" abc "`
+- **Expected Output**: `"abc"`
+- **Actual Output**: `"abc"`
+- **Status**: Pass
+
+## Issues Encountered
+- No issues encountered. All test cases passed successfully.
+
+## Conclusion
+All the string manipulation methods in the `StringUtils` class have been tested under various scenarios including empty strings, single characters, alphanumeric strings, and strings with whitespace. The tests have confirmed the correctness of the implemented methods. The code is functioning as expected and meets the specified requirements.
